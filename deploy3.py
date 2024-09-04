@@ -22,8 +22,8 @@ def wlDeployUndeploy(username, password, adminURL, appName, location, targets):
 
     except Exception, e:
          print ex.toString()
-wlDeployUndeploy('weblogic','weblogic1','t3://192.168.56.101:7001','benefits','/u01/app/oracle/middleware/applications/benefits.war','Cluster-1')
-wlDeployUndeploy('weblogic','weblogic1','t3://192.168.56.101:7001','messaging','/u01/app/oracle/middleware/applications/messaging.war','Cluster-1')
-wlDeployUndeploy('weblogic','weblogic1','t3://192.168.56.101:7001','contacts','/u01/app/oracle/middleware/applications/contacts.war','Cluster-1')
-wlDeployUndeploy('weblogic','weblogic1','t3://192.168.56.101:7001','timeoff','/u01/app/oracle/middleware/applications/timeoff.war','Cluster-1')
+wlDeployUndeploy('weblogic','weblogic1','t3://192.168.1.125:7001','benefits','/u01/app/oracle/middleware/applications/benefits.war','admin_test')
+wlDeployUndeploy('weblogic','weblogic1','t3://192.168.1.125:7001','messaging','/u01/app/oracle/middleware/applications/messaging.war','admin_test')
+wlDeployUndeploy('weblogic','weblogic1','t3://192.168.1.125:7001','contacts','/u01/app/oracle/middleware/applications/contacts.war','admin_test')
+wlDeployUndeploy('weblogic','weblogic1','t3://192.168.1.125:7001','timeoff','/u01/app/oracle/middleware/applications/timeoff.war','admin_test')
 
