@@ -1,4 +1,4 @@
-#!//u01/app/oracle/middleware/wls12c/oracle_common/common/bin/wlst.sh
+#!/u01/app/oracle/middleware/Jen_wls12c/oracle_common/common/bin/wlst.sh
 def wlDeployUndeploy(username, password, adminURL, appName, location, targets):
     try:
         #connect to admin server
